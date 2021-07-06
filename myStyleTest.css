@@ -1,0 +1,442 @@
+* {
+    margin: 0;
+    padding: 0;
+} 
+
+html {  
+      scroll-behavior: smooth;
+}
+
+body{
+    font-family: AudiTypeNormal, Verdana, sans-serif;
+    overflow-x: hidden; 
+}
+
+ul{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.screen{
+    height:100vh;
+    width: 100%;
+}
+
+.screen-bigger{
+    height:1050px;
+    width:100%;
+    
+}
+
+.topnav{
+}
+
+.topnav ul{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    width:100%;
+    height: 80px;
+    align-items: center;
+}
+
+.topnav a{
+    color: #000000;
+    font-size: 16px;
+    font-weight: 400;
+    margin-left: 40px;
+}
+
+.topnav .home{
+    display: none;
+}
+
+.topnav a:hover{
+    color: #808080;
+}
+
+.screen-one-build{
+    text-decoration:none;
+    background-color: white;
+    color: #808080;
+    font-size:16px; font-strech:103%;
+    height:70px;
+    width:160px;
+    border: 0.5px solid #FFFFFF;
+    transition:0.5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.screen-one-build:hover{
+    background-color: #EEEEEE;
+    color: #000000;
+    transition:0.5s;
+}
+
+
+.screen-one-other{
+    text-decoration:none;
+    font-size:16px; font-strech:103%;
+    height: 70px;
+    width: 270px;
+    border: 0.5px solid #FFFFFF;
+    color: #FFFFFF;
+    transition:0.5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 3px;
+}
+
+
+.box .screen-one-other:hover{
+    border: 0.5px solid #C0C0C0;
+    color: #C0C0C0;
+}
+
+.screen-one-text{
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.85), transparent);
+}
+
+
+.image-bg{
+    background-image: url("https://www.audiusa.com/content/dam/nemo/us/models/R8/MLP-redesign/1920x1920_7092-2020AudiR848.jpg");
+    min-width:100%;
+    height: calc(100% - 80px);
+    background-size: cover;
+    background-position: center;
+}
+
+.image-bg .box{
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.sticky{
+    position: sticky;
+    top:0;
+}
+
+.sticky-nav ul{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    width:100%;
+    height: 50px; line-height: 50px;
+    background-color: #FFFFFF;
+    align-items: center;
+}
+
+.sticky-nav li{
+    padding-left: 50px;
+}
+
+.sticky a{
+    color: #000000;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.sticky a:hover{
+    color: #808080;
+}
+
+.sticky-nav .dropdown{
+    display:none;
+}
+
+.screen-two{
+    background-color: #F9F9F9;
+    height:100%;
+    width:100%;
+}
+
+.screen-two .center{
+    height: 100%;
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    flex-direction: column;
+    z-index: 999999;
+}
+
+.screen-two .center h2{
+    margin-top: 130px;
+    padding-bottom: 40px;
+    text-align: center;
+    flex-wrap: wrap;
+    font-size: 44px;
+    letter-spacing: -0.66px;
+    font-weight: 400;
+    font-stretch: 130%;
+}
+
+.screen-two .center .subtitle{
+    text-align: center;
+    flex-wrap: wrap;
+    font-size: 16px;
+    line-height: 24px;
+    font-strech:105%;
+    font-weight: 400px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.screen-two .center .key-highlights{
+    font-family: AudiTypeExtended, sans-serif;
+    padding-top:200px;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.screen-two .horizontal-box{
+    width: 100%;
+}
+
+.screen-two .horizontal-box ul{
+    font-size: 16; font-weight: 700;
+    margin-top: 75px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 200px;
+    
+}
+
+.screen-two .horizontal-box ul li{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width:calc(100%/3);
+}
+
+.screen-two .horizontal-box .side-border{
+    border-left: 1px solid black; border-right:1px solid black;
+}
+
+.screen-two .horizontal-box ul li .big{
+    font-size: 42px; font-weight: 700;
+    line-height: 100px;
+}
+
+.screen-two .horizontal-box ul li .small{
+    font-size: 13px; font-weight: 400;
+}
+
+.screen-two .screen-one-other{
+    margin-top:75px;
+    color:#000000;
+    border: 0.5px solid #000000;
+}
+
+.screen-two .screen-one-other:hover{
+    border: 0.5px solid #C0C0C0;
+    color: #C0C0C0;
+}
+
+.screen-three-bg{
+    background-image: url("https://www.audiusa.com/content/dam/nemo/us/models/R8/MLP-redesign/1920x1920_7082-2020AudiR838.jpg");
+    min-width:100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+.img-wrapper {
+  display: grid;
+  height: 100vh;
+}
+
+.img-wrapper div {
+  grid-column: 1;
+  grid-row: 1;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: opacity 1s;
+}
+
+.screen-four-bg{
+    background-image: url("https://www.audiusa.com/content/dam/nemo/us/models/R8/MLP-redesign/1920x1080_Large-7091-2020AudiR8_2.jpg");
+    min-width:100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+@media screen and (max-width: 1024px) {
+    .topnav a{
+        margin-left:0px;
+    }
+    .topnav ul{
+        display: flex;
+        justify-content: space-between;
+    }
+    .topnav li:not(:nth-child(-n+3)) {display: none;}
+    .topnav li{
+        width: calc(100%/3);  
+    }
+    .topnav li.logo{
+        text-align: center;
+    }
+    .topnav a.home {
+        display: block;
+        margin-left:40px;
+    }
+    
+    .topnav a:hover{
+        color:#000000;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .topnav.responsive{
+        position:fixed;
+        height:100vh;
+        width: 100%;
+        background-color: #FFFFFF;       
+    }
+    
+    .topnav.responsive ul{
+        margin: 0px;
+    }
+    
+    .topnav.responsive .middle{
+        height: 80px;
+        display: flex;
+        align-items: center;
+    }
+    
+    .topnav.responsive li.model{
+        display:block;
+        width:100%;
+        border-top: 2px solid black;
+        padding-top: 30px;
+        padding-left:30px;
+    }
+  
+    .topnav.responsive li.items{
+        display:block;
+        width:100%;
+        padding-top: 30px;
+        padding-left:30px;
+    }
+    
+    .topnav.responsive .logo{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .image-bg{
+        height: calc(100% - 15vh);
+    }
+    
+    .image-bg .box{
+        height: auto;
+        height: calc(100% - 120px);
+        display: flex;
+        align-content: flex-end;
+        padding-bottom: 10px;
+        
+    }
+    .image-bg .box a{
+        width:100%;
+    }
+    
+    .image-bg .screen-one-other{
+        margin-top: 3px;
+        margin-left: 0px;
+        margin-bottom: 20px;
+    }
+    
+    .sticky-nav li:not(:nth-child(-n+2)) {display: none;}
+    
+    .sticky-nav ul{
+        display: grid;
+    }
+    
+    .sticky-nav ul li{
+        grid-column: 1; grid-row: 1;
+    }
+    
+    .sticky-nav .dropdown{
+        display:block;
+    } 
+    
+    .screen-bigger{
+        height:1230px;
+    }
+    
+    .screen-two .horizontal-box ul{
+        width: 100%;
+        flex-direction: row;
+    }
+    
+    .screen-two .horizontal-box ul li{
+        width: 100%;
+    }
+    
+    .screen-two .horizontal-box .side-border{
+        margin-left:20px; margin-right: 20px;
+        border-top: 1px solid black; border-bottom:1px solid black;
+        border-left: none; border-right: none;
+    }
+    
+    .screen-two .screen-one-other{
+        margin-top:300px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .sticky-nav.responsive{
+        width: 100%;
+    }
+    
+    .sticky-nav.responsive .dropdown{
+        position: absolute;
+    } 
+
+    
+    .sticky-nav.responsive ul{
+        display:flex;
+    }
+    
+    .sticky-nav.responsive .items{
+        display:block;
+        width:100%;
+        height:40px; line-height: 40px;
+        background-color: #ECECEC;
+    }
+}
+
+@media screen and (max-width: 550px){
+    .topnav ul{
+        height: 90px;
+    }
+    
+    .topnav.responsive .middle{
+        height: 90px;
+        display: flex;
+        align-items: center;
+    }
+    
+    .image-bg{
+        background-position:-120px center;
+        background-size: 250%;
+    }
+    
+    .screen-bigger{
+        height:1330px;
+    }
+    
+}
