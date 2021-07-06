@@ -4,7 +4,7 @@
 <html>
     <head>
         <link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css" rel="stylesheet"  type='text/css'>
-        <link rel="stylesheet" type="text/css" href="myStyleTest.css">
+        <link rel="stylesheet" type="text/css" href="myStyle.css">
         <meta name="viewport" content="width=device-width, initial-scale=1" />
     </head>
     

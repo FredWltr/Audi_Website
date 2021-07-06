@@ -12,7 +12,7 @@ and open the template in the editor.
     <body>
         <?php
         // put your code here
-        include "homepageTest.php"
+        include "homepage.php"
         ?>
     </body>
 </html>
